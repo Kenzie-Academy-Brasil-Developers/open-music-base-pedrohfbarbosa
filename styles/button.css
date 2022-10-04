@@ -32,15 +32,15 @@ button, input {
 }
 
 .btn-buy {
-    background-color: var(--color-grey-7);
-    border-radius: var(--radius-1);
-    height: 2rem;
     padding: 0 0.5rem 0 0.5rem;
+    height: 2rem;
+    background-color: var(--color-grey-7);
     border: none;
+    border-radius: var(--radius-1);
     color: var(--color-grey-0);
 }
 
 .btn-buy:hover {
-    background-color: var(--color-grey-5);
-    color: var(--color-grey-0);
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-9);
 }
