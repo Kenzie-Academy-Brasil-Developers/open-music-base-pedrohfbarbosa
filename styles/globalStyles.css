@@ -22,20 +22,61 @@
   --color-disable-fixed: #212529;
   --color-actived-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
+  --font-color-fixed: black;
 
   --font-1: 1.75rem;
   --font-2: 1rem;
   --font-3: 0.875rem;
+  --font-4: 0.75rem;
 
   --radius-1: 0.25rem;
+  --radius-2: 0.5rem;
   --container: 45rem;
+
+  --img-dark-mode: url(../assets/img/moon.png);
 }
+
+.dark-mode:root {
+  --color-brand-1:#9747ff;
+  --color-grey-0: #fdfeff;
+  --color-grey-1: #f8f9fa;
+  --color-grey-2: #f1f3f5;
+  --color-grey-3: #dee2e6;
+  --color-grey-4: #ced4da;
+  --color-grey-5: #adb5bd;
+  --color-grey-6: #868e96;
+  --color-grey-7: #2b2f33;
+  --color-grey-8: #212529;
+  --color-grey-9: #15171a;
+
+  --color-disable-fixed: #212529;
+  --color-actived-fixed: #2b2f33;
+  --color-white-fixed: #ffffff;
+  --font-color-fixed: black;
+
+  --font-1: 1.75rem;
+  --font-2: 1rem;
+  --font-3: 0.875rem;
+  --font-4: 0.75rem;
+
+  --radius-1: 0.25rem;
+  --radius-2: 0.5rem;
+  --container: 45rem;
+
+  --img-dark-mode: url(../assets/img/sun.png);
+}
+
 
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  color: var(--color-grey-0);
+}
+
+ul {
+  list-style: none;
 }
 
 .container {

@@ -1,0 +1,46 @@
+button, input {
+    cursor: pointer;
+}
+
+#btn-dark-mode {
+    background-color: var(--color-grey-8);
+    background-image: var(--img-dark-mode);
+    background-repeat: no-repeat;
+    background-position: center;   
+    width: 2.25rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: var(--radius-1);
+}
+
+#btn-dark-mode:hover {
+    background-color: var(--color-grey-7);
+}
+
+.btn-music-style {
+    padding: 0 0.5rem 0 0.5rem;
+    height: 2rem;
+    background-color: var(--color-grey-8);
+    border: none;
+    border-radius: var(--radius-1);
+    color: var(--color-grey-0);
+}
+
+.btn-music-style:hover {
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-9);
+}
+
+.btn-buy {
+    background-color: var(--color-grey-7);
+    border-radius: var(--radius-1);
+    height: 2rem;
+    padding: 0 0.5rem 0 0.5rem;
+    border: none;
+    color: var(--color-grey-0);
+}
+
+.btn-buy:hover {
+    background-color: var(--color-grey-5);
+    color: var(--color-grey-0);
+}

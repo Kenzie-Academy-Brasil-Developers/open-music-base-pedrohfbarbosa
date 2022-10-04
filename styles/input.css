@@ -1,0 +1,21 @@
+/* #price-range {
+    -webkit-appearance: none;
+}
+
+#price-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 5px solid var(--color-brand-1);
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 50%;
+    background: var(--color-grey-9);
+    margin-top: -0.3rem;
+}
+
+#price-range::-webkit-slider-runnable-track {
+    height: 0.5rem;
+    background: #ddd;
+    color: var(--color-brand-1);
+    border: none;
+    border-radius: var(--radius-1);
+} */

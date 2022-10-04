@@ -1,0 +1,29 @@
+.title-logo {
+    font-weight: 600;
+    font-size: var(--font-1);
+}
+
+.title-2 {
+    font-weight: 600;
+    font-size: var(--font-2);
+}
+
+.font-1 {
+    font-weight: 500;
+    font-size: var(--font-3);
+}
+
+.font-2 {
+    font-weight: 500;
+    font-size: var(--font-2);
+}
+
+.font-3 {
+    font-weight: 500;
+    font-size: var(--font-4);
+}
+
+.font-4 {
+    font-weight: 600;
+    font-size: var(--font-3);
+}
