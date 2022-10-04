@@ -9,16 +9,25 @@
     overflow: hidden;
 }
 
+.card:hover {
+    background-color: var(--color-grey-7);
+}
+
+.card:hover > .card-img-wrapper img {
+    transform: scale(1.4);
+}
+
 .card-img-wrapper {
     height: 45%;
     width: 100%;
+    object-fit: cover;
     overflow: hidden;
 }
 
 .card-img-wrapper img{
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    transition: 0.4s ease;
 }
 
 .card-body {

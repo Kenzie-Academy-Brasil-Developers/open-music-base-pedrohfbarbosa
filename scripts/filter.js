@@ -23,7 +23,7 @@ allStyles.forEach((element) => {
             
             listAlbums(newArr)            
         }else{
-            albumsList.innerHTML = `<p>Nenhum álbum da categoria ${categories[categoriesIndex]} encontrado</p>`
+            albumsList.innerHTML = `<p>Nenhum álbum encontrado da categoria ${categories[categoriesIndex]}</p>`
 
             inputRange.max = maxPrice(newArr)
             inputRange.value = maxPrice(newArr)

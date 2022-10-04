@@ -65,7 +65,7 @@ inputRange.addEventListener("mousemove", function() {
         if (newArrFilteredValue.length > 0){
             listAlbums(newArrFilteredValue)
         }else{
-            albumsList.innerHTML = `<p>Nenhum álbum com valor menor que R$ ${maxValueFilter} na categoria ${categories[categoriesIndex]} encontrado</p>`
+            albumsList.innerHTML = `<p>Nenhum álbum encontrado com valor menor que R$ ${maxValueFilter} na categoria ${categories[categoriesIndex]}</p>`
         }
     }
 })
